@@ -1,7 +1,7 @@
 export const products = [
     {
       id: 1,
-      name: "Winter body",
+      name: "stake",
       description: [
         { support: "گارانتی مادام العمر" },
         { support: "ارسال رایگان" },
@@ -10,20 +10,20 @@ export const products = [
       price: 120,
       offPrice: 120,
       discount: 0,
-      image: "/food-1.jpg",
+      image: "./img/food-1.jpg",
     },
     {
       id: 2,
-      name: "Adidas",
+      name: "sabzijat",
       description: [{ support: "گارانتی مادام العمر" }, { support: "اورجینال" }],
       price: 110,
       offPrice: 100,
       discount: 8,
-      image: "/food-2.jpg",
+      image:  "./img/food-2.jpg",
     },
     {
       id: 3,
-      name: "Vans",
+      name: "makaroni",
       description: [
         { support: "گارانتی مادام العمر" },
         { support: "اورجینال" },
@@ -32,11 +32,11 @@ export const products = [
       price: 99,
       offPrice: 89,
       discount: 10,
-      image: "/food-3.jpg",
+      image:  "./img/food-3.jpg",
     },
     {
       id: 4,
-      name: "White",
+      name: "mahi",
       description: [
         { support: "گارانتی مادام العمر" },
         { support: "اورجینال" },
@@ -45,11 +45,11 @@ export const products = [
       price: 260,
       offPrice: 220,
       discount: 15,
-      image: "/food-4.jpg",
+      image:  "./img/food-4.jpg",
     },
     {
       id: 5,
-      name: "Croopped-shoe",
+      name: "pitza",
       description: [
         { support: "گارانتی مادام العمر" },
         { support: "اورجینال" },
@@ -58,11 +58,11 @@ export const products = [
       price: 150,
       offPrice: 150,
       discount: 0,
-      image: "/food-5.jpg",
+      image: "./img/food-5.jpg",
     },
     {
       id: 6,
-      name: "Blues",
+      name: "hamberger",
       description: [
         { support: "گارانتی مادام العمر" },
         { support: "اورجینال" },
@@ -71,7 +71,7 @@ export const products = [
       price: 220,
       offPrice: 200,
       discount: 13,
-      image: "/food-6.jpg",
+      image:  "./img/food-6.jpg",
     },
   ];
   
