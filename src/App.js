@@ -1,15 +1,19 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import Cartprovider from './components/provider/Cartprovider'
 import Homepage from './pages/Homepage'
 
 const App = () => {
   return (
-    <div>
-      
+    <BrowserRouter>
+      <Cartprovider>
      <Navbar>
-        <Homepage />
+        <Route path="/" component={Homepage}/>
      </Navbar>
-    </div>
+     </Cartprovider>
+     </BrowserRouter>
   )
 }
 
