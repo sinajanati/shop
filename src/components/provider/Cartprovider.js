@@ -13,9 +13,9 @@ const Cartprovider = ({children}) => {
   return (
     <div>
         <Cartcontext.Provider value={cart}>
-            <Cartcontextdispacher value={dispatch}>
+            <Cartcontextdispacher.Provider value={dispatch}>
                 {children}
-            </Cartcontextdispacher >
+            </Cartcontextdispacher.Provider >
         </Cartcontext.Provider>
     </div>
   )

@@ -1,9 +1,11 @@
 import React from 'react'
+import { useCartaction } from '../components/provider/Cartprovider'
 import * as data from '../data'
 
 const Homepage = () => {
+    const dispatch=useCartaction()
     const addproducthandler =(product)=>{
-        console.log(product)
+        dispatch({type:"ADD-TO-CART",payload:product})
     }
   return (
     <div>

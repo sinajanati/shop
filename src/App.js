@@ -1,19 +1,28 @@
 import React from 'react'
-import { BrowserRouter } from 'react-router-dom'
 import { Route } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { Switch } from 'react-router-dom'
+
 import Navbar from './components/Navbar'
 import Cartprovider from './components/provider/Cartprovider'
+
 import Homepage from './pages/Homepage'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    
+      <Router>
       <Cartprovider>
+        
      <Navbar>
-        <Route path="/" component={Homepage}/>
+     <Switch>
+       <Route path="/" component={Homepage }/>
+       </Switch>
      </Navbar>
+     
      </Cartprovider>
-     </BrowserRouter>
+     </Router>
+   
   )
 }
 
