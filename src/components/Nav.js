@@ -1,9 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { Link } from 'react-router-dom'
+
 import './nav.css'
+import { useCart } from './provider/Cartprovider'
 
 const Nav = () => {
+  const { cart } = useCart()
   return (
     <div >
         <nav className='navbar navbar-expand-lg bg-light navbar-light'>
